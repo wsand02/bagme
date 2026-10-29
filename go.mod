@@ -1,8 +1,6 @@
 module github.com/boxesandglue/bagme
 
-go 1.21
-
-toolchain go1.22.0
+go 1.25.0
 
 require (
 	github.com/boxesandglue/boxesandglue v0.1.0
@@ -20,6 +18,6 @@ require (
 	github.com/speedata/css/scanner v0.0.0-20240704081300-00e8c453c7d5 // indirect
 	github.com/speedata/hyphenation v1.0.2 // indirect
 	golang.org/x/image v0.21.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
